@@ -116,7 +116,7 @@ public class RCCacheCore {
         let path = cachePathForKey(key)
         switch cacheType {
         case .Object:
-            getObject(key, path: path, objectHandler: objectHandler)
+            getObject(key.rc_MD5(), path: path, objectHandler: objectHandler)
         case .Image:
             getImage(path, imageHandler: imageHandler)
         case .Data:
@@ -151,6 +151,7 @@ public class RCCacheCore {
             let data = UIImagePNGRepresentation(image!)
             if let data = data {
                 self.fileManager.createFileAtPath(path, contents: data, attributes: nil)
+                completeHandler?()
             }
         }
     }
@@ -159,6 +160,7 @@ public class RCCacheCore {
         dispatch_async(ioQueue!) { () -> Void in
             if let data = data {
                 self.fileManager.createFileAtPath(path, contents: data, attributes: nil)
+                completeHandler?()
             }
         }
     }

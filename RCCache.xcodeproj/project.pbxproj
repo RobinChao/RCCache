@@ -15,6 +15,8 @@
 		00BB39F61C9BA7ED001465B2 /* RCCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB39F51C9BA7ED001465B2 /* RCCache.swift */; };
 		00BB39F81C9BA8CD001465B2 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB39F71C9BA8CD001465B2 /* String+MD5.swift */; };
 		00BB39FA1C9BB045001465B2 /* RCCacheCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB39F91C9BB044001465B2 /* RCCacheCore.swift */; };
+		00BB39FD1C9BDAE8001465B2 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB39FC1C9BDAE8001465B2 /* Member.swift */; };
+		00BB39FF1C9BDF51001465B2 /* 52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00BB39FE1C9BDF51001465B2 /* 52.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		00BB39F51C9BA7ED001465B2 /* RCCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCCache.swift; sourceTree = "<group>"; };
 		00BB39F71C9BA8CD001465B2 /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
 		00BB39F91C9BB044001465B2 /* RCCacheCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCCacheCore.swift; sourceTree = "<group>"; };
+		00BB39FC1C9BDAE8001465B2 /* Member.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		00BB39FE1C9BDF51001465B2 /* 52.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 52.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,10 @@
 			children = (
 				00BB39DE1C9BA7AE001465B2 /* AppDelegate.swift */,
 				00BB39E01C9BA7AE001465B2 /* ViewController.swift */,
+				00BB39FC1C9BDAE8001465B2 /* Member.swift */,
 				00BB39E21C9BA7AE001465B2 /* Main.storyboard */,
 				00BB39E51C9BA7AE001465B2 /* Assets.xcassets */,
+				00BB39FE1C9BDF51001465B2 /* 52.jpg */,
 				00BB39E71C9BA7AE001465B2 /* LaunchScreen.storyboard */,
 				00BB39EA1C9BA7AE001465B2 /* Info.plist */,
 			);
@@ -139,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00BB39FF1C9BDF51001465B2 /* 52.jpg in Resources */,
 				00BB39E91C9BA7AE001465B2 /* LaunchScreen.storyboard in Resources */,
 				00BB39E61C9BA7AE001465B2 /* Assets.xcassets in Resources */,
 				00BB39E41C9BA7AE001465B2 /* Main.storyboard in Resources */,
@@ -153,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00BB39F61C9BA7ED001465B2 /* RCCache.swift in Sources */,
+				00BB39FD1C9BDAE8001465B2 /* Member.swift in Sources */,
 				00BB39E11C9BA7AE001465B2 /* ViewController.swift in Sources */,
 				00BB39DF1C9BA7AE001465B2 /* AppDelegate.swift in Sources */,
 				00BB39FA1C9BB045001465B2 /* RCCacheCore.swift in Sources */,
@@ -304,6 +312,7 @@
 				00BB39EF1C9BA7AE001465B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
